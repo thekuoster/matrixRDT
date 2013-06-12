@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@raw/background"
+    android:screenOrientation="landscape" >
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_above="@+id/helper"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="@string/app_title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="48sp"
+        android:textColor="#00FF00" />
+
+    <TextView
+        android:id="@+id/helper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/start_help"
+        android:textColor="#00CC00" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_below="@+id/helper"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp" >
+
+        <Button
+            android:id="@+id/buttonCamera"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_weight="1"
+            android:background="#00AA00"
+            android:text="@string/camera"
+            android:textColor="#000000"
+            android:onClick="openCamera" />
+
+        <Button
+            android:id="@+id/buttonFileChooser"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="40dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_weight="1"
+            android:background="#00AA00"
+            android:text="@string/image_selection"
+            android:textColor="#000000"
+            android:onClick="imageChooser" />
+    </TableRow>
+
+</RelativeLayout>

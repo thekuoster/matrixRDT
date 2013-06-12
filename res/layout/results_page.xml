@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:screenOrientation="portrait">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/results_title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#00BB00"
+        android:textSize="36sp" />
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageResult"
+        android:layout_marginTop="14dp" >
+
+        <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp" >
+
+            <TextView
+                android:id="@+id/textTestLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="@string/test_label"
+                android:textColor="#00BB00"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textResultsLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="@string/results_label"
+                android:textColor="#00BB00"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp" >
+
+            <TextView
+                android:id="@+id/textTest1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="@string/test_1"
+                android:textColor="#00BB00" />
+
+            <TextView
+                android:id="@+id/textTest1Result"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:text="@string/empty"
+                android:textColor="#00BB00" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp" >
+
+            <TextView
+                android:id="@+id/textTest2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="@string/test_2"
+                android:textColor="#00BB00" />
+
+            <TextView
+                android:id="@+id/textTest2Result"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:text="@string/empty"
+                android:textColor="#00BB00" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp" >
+
+            <TextView
+                android:id="@+id/textTest3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="@string/test_3"
+                android:textColor="#00BB00" />
+
+            <TextView
+                android:id="@+id/textTest3Result"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:text="@string/empty"
+                android:textColor="#00BB00" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp" >
+
+            <TextView
+                android:id="@+id/textTest4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="@string/test_4"
+                android:textColor="#00BB00" />
+
+            <TextView
+                android:id="@+id/textTest4Result"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:text="@string/empty"
+                android:textColor="#00BB00" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp" >
+
+            <TextView
+                android:id="@+id/textTest5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="@string/test_5"
+                android:textColor="#00BB00" />
+
+            <TextView
+                android:id="@+id/textTest5Result"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:text="@string/empty"
+                android:textColor="#00BB00" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp" >
+
+            <TextView
+                android:id="@+id/textTest6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="@string/test_6"
+                android:textColor="#00BB00" />
+
+            <TextView
+                android:id="@+id/textTest6Result"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:text="@string/empty" 
+                android:textColor="#00BB00"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp" >
+
+            <TextView
+                android:id="@+id/textTest7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="@string/test_7"
+                android:textColor="#00BB00" />
+
+            <TextView
+                android:id="@+id/textTest7Result"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:text="@string/empty"
+                android:textColor="#00BB00" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp" >
+
+            <TextView
+                android:id="@+id/textTest8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="@string/test_8"
+                android:textColor="#00BB00" />
+
+            <TextView
+                android:id="@+id/textTest8Result"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:text="@string/empty"
+                android:textColor="#00BB00" />
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/imageResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="175dp"
+        android:maxHeight="175dp"
+        android:layout_below="@+id/textTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:padding="2dp"
+        android:background="#000000" />
+
+</RelativeLayout>
